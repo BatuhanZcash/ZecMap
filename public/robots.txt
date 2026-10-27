@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /auth
+Disallow: /register
+Disallow: /profile
+Disallow: /saved
+
+Sitemap: https://zecmap.com/sitemap.xml

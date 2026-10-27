@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="zg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD93D"/>
+      <stop offset="50%" stop-color="#FFC107"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#FFC107" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFC107" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Z logo circle -->
+  <g transform="translate(140, 215)">
+    <circle cx="100" cy="100" r="100" fill="#0a0a0a" stroke="url(#zg)" stroke-width="3" opacity="0.9"/>
+    <path d="M59 56 L141 56 L141 69 L81 131 L141 131 L141 144 L59 144 L59 131 L119 69 L59 69 Z" fill="url(#zg)"/>
+  </g>
+
+  <!-- Text -->
+  <text x="380" y="285" font-family="Manrope, Inter, system-ui, sans-serif" font-weight="900" font-size="86" fill="#ffffff" letter-spacing="-2">ZecMap</text>
+  <text x="380" y="345" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="32" fill="#FFC107" letter-spacing="-0.5">Global Zcash Merchant Directory</text>
+  <text x="380" y="405" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="24" fill="#9ca3af">Discover cafes, stores &amp; services that accept ZEC.</text>
+  <text x="380" y="438" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="24" fill="#9ca3af">Privacy-first. Community-verified.</text>
+
+  <!-- Pin accent -->
+  <g transform="translate(1050, 470) scale(2.2)">
+    <path d="M14 0C7.4 0 2 5.4 2 12c0 7.8 12 24 12 24S26 19.8 26 12C26 5.4 20.6 0 14 0z" fill="#FFC107"/>
+    <circle cx="14" cy="12" r="5" fill="rgba(0,0,0,0.3)"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="36" viewBox="0 0 28 36">
+  <filter id="pin-shadow" x="-30%" y="-10%" width="160%" height="140%">
+    <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.4" />
+  </filter>
+  <path filter="url(#pin-shadow)"
+    d="M14 0C7.4 0 2 5.4 2 12c0 7.8 12 24 12 24S26 19.8 26 12C26 5.4 20.6 0 14 0z"
+    fill="#FFC107" />
+  <circle cx="14" cy="12" r="5" fill="rgba(0,0,0,0.3)" />
+</svg>
